@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.log
+
+# Virtual envs
+.venv/
+env/
+venv/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# --- Project secrets ---
+.env
+*.secret.json
+client_secret.json
+youtube_token.json
+
+# --- Output artifacts ---
+output/
+assets/images/cache/
+*.mp3
+*.mp4
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+
+# --- IDE/editor ---
+.vscode/
+.idea/
+*.swp
