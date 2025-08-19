@@ -22,15 +22,26 @@ client_secret.json
 youtube_token.json
 
 # --- Output artifacts ---
-output/
-assets/images/cache/
-*.mp3
-*.mp4
-*.wav
-*.png
-*.jpg
-*.jpeg
-*.webp
+# Ignore everything under output/, but keep the directory (and cache/) with .gitkeep
+output/**
+!output/.gitkeep
+output/cache/**
+!output/cache/.gitkeep
+
+# --- Assets ---
+# Ignore everything under assets/images/, but keep the directory with .gitkeep
+assets/images/**
+!assets/images/.gitkeep
+
+# If you ONLY want to ignore generated media in output/, scope the patterns like this:
+# (Uncomment if you removed the global media ignores below)
+# output/**/*.mp3
+# output/**/*.mp4
+# output/**/*.wav
+# output/**/*.png
+# output/**/*.jpg
+# output/**/*.jpeg
+# output/**/*.webp
 
 # --- OS cruft ---
 .DS_Store
