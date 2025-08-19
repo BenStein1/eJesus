@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/eJesus_icon.png" alt="eJesus logo" width="160">
+</p>
+<h1 align="center">eJesus</h1>
+
 # eJesus
 
 Daily sermon pipeline: **OpenAI** (script) → **ElevenLabs** (TTS) → **Canva handoff** (CSV + title card) or **local render** → **YouTube** upload.
